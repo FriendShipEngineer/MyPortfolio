@@ -1,4 +1,4 @@
-import { meta, kartonmedya, verisoft, okttrailer } from "../assets/images";
+import { meta, b2wise, balizero, waylight, developx, f8} from "../assets/images";
 import {
   car,
   contact,
@@ -112,40 +112,75 @@ export const skills = [
 export const experiences = [
   {
     title: "Full-Stack Developer",
-    company_name: "Verisoft",
-    icon: verisoft,
+    company_name: "B2Wise",
+    icon: b2wise,
     iconBg: "#accbe1",
-    date: "May 2019 - December 2023",
+    date: "May 2023 - Feb 2024",
     points: [
-      "Building Fintech businesses at Verisoft as part of a global team. More specifically, developing loyalty, payment system and card products to deliver delightful experiences to Verisoft's customers around the world.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build company website UI using React, Next.js, Typescript as the frontend, and ASP.NET as the backend",
+      "Convert Old User Interface to new and configure DDD pattern infrastructure with the new UI version",
+      "Manage Test, Dev, UAT, Prod servers using AWS, Azure and docker",
+      "Migrate Azure SQL production workloads to AWS Lambda using Python",
+      "Collaborate with Technical team, Design team, Old UI team, New UI team, Support team with SCRUM methodology",
+      "Update ASP.NET6 to AWS.NET core 7 with DDD pattern"
     ],
   },
   {
     title: "Full-Stack Developer",
-    company_name: "OKT Trailer",
-    icon: okttrailer,
+    company_name: "Balizero",
+    icon: balizero,
     iconBg: "#c0c0c0",
-    date: "Agu 2017 - Sep 2018",
+    date: "Dec 2022 - Apr 2023",
     points: [
-      "Taking an important role in the ERP transformation project by being responsible for the finance, sales, vehicle tracking and delivery modules of the Enterprise Resource Planning (ERP) structure.",
-      "Demonstrating effective communication and project management skills during the analysis, testing and development process to ensure the successful outcome of the ERP transformation project.",
-      "Actively working with business teams throughout this process."
+      "Update company website using React, Next.js, Typescript as frontend, and Node.js as backend",
+      "Update UI/UX frontend from Figma Design with TailwindCSS, and custom hooks",
+      "Demonstrate experience in developing complex GraphQL APIs and implementing Apollo Client for efficient data fetching and caching in Node.js applications",
+      "Collaborate with other teams to Update UI/UX using MUI, and Styled Components, SCSS",
+      "Integrate Firebase, and push notification, google geolocation service etc…",
+      "Configure CI/CD pipelines with Netlify, Docker, GitLab, and AWS EC2 instances",
+      "Implement SMS automation and integrate payments such as Wise, Stripe, and PayPal"
+    ],
+  },
+  {
+    title: "Senior React/RN Developer",
+    company_name: "Waylight.se",
+    icon: waylight,
+    iconBg: "#c8a2c8",
+    date: "Dec 2021 - Aug 2022",
+    points: [
+      "Create IOS/Android App using React Native, Next.js for Admin pages and .Net Core 6 for backend",
+      "Build pixel-perfect custom components and frontend pages using Next.js /React Native from Figma Design",
+      "Integration with Firebase and Social login (Google/Apple Login) and 2FA implementation",
+      "Promote DevOps experiences and implement transparent deployment pipeline with Bitbucket, Kubernetes, Netlify, TestFlight",
+      "Implement Push Notifications, and Deploy on Appstore/Google Play Store"
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    company_name: "DevelopX",
+    icon: developx,
+    iconBg: "#c8a2c8",
+    date: "Apr 2018 - May 2021",
+    points: [
+      "Design the application architecture on TypeScript, React, and Redux",
+      "Develop React Native application that helps Farmers automate their production",
+      "Convert a traditional web application to a single-page application with React.js, Next.js, Vue.js and configure as Progressive Web App (PWA)",
+      "Develop a GraphQL-based backend API",
+      "Build REST applications and services in Node.js , Express.js, Laravel, and Django with high scalability, flexibility which are mostly JavaScript and Node.js on the AWS stack",
+      "Configure CI/CD pipelines with GitLab & Kubernetes, and AWS network load-balancing policies"
     ],
   },
   {
     title: "Junior Front-End Developer",
-    company_name: "Karton Medya",
-    icon: kartonmedya,
+    company_name: "Funtion Eight",
+    icon: f8,
     iconBg: "#c8a2c8",
-    date: "Feb 2016 - Jun 2017",
+    date: "Dec 2015 - Dec 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
+      "Convert Figma, XD Design, mock-ups provided by graphic designers to fully functional e-Commerce, Sport site, etc.",
+      "Integrate JSON REST API & GraphQL API.",
+      "Design and invented solutions and coding patterns to solve front-end problems",
+      "Develop CodeIgniter, Laravel frameworks of an interface management web application"
     ],
   }
 ];
@@ -159,12 +194,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/emredkyc",
+    link: "https://github.com/FriendShipEngineer",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu",
+    link: "https://www.linkedin.com/in/egor-masiutkin-95502a281",
   },
 ];
 
@@ -205,14 +240,6 @@ export const projects = [
     link: "https://brainstorm-dev.vercel.app",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-yellow",
-    name: "Personal portfolio website.",
-    description:
-      "Personal portfolio website.",
-    link: "https://portfolio-emredkyc.vercel.app",
-  },
-  {
     iconUrl: estate,
     theme: "btn-back-green",
     name: "React Exercise Application",
@@ -227,65 +254,5 @@ export const projects = [
     description:
       "Build and Deploy a Real Estate React & Next.js Application",
     link: "https://realtor-dev.vercel.app",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-black",
-    name: "A Ecom Price Tracking Application",
-    description:
-      "Dive into web scraping and build a Next.js 14 eCommerce price tracker within one project that teaches you data scraping, cron jobs, sending emails, deployment, and more.",
-    link: "https://price-tracker-dev.vercel.app",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-red",
-    name: "AI Prompt Sharing Application",
-    description: "Next.js has recently become the official React framework as stated in the React documentation. In this project you will learn the most important Next.js concepts and how they fit into the React ecosystem. Finally, you will test your skills by building a modern full-stack Next 14 application.",
-    link: "https://promptify-dev.vercel.app",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "3D Portfolio",
-    description: "Let's create a cool 3D website together! You will learn how to make a portfolio with fun interactive pieces like a floating island and a fox that moves when you type. This way you can show off your skills.",
-    link: "https://3d-portfolio-emredkyc.vercel.app",
-  },
-  {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Anime World",
-    description: "Curious about Server Actions in Next.js 14? How about infinite scrolling and Framer Motion animations with Next 14? This application will explain these concepts when building a server-side Next 14 Application",
-    link: "https://anime-world-development.vercel.app",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "ClubTotal Card - Loyalty Card Application",
-    description: "Customer loyalty card developed for Total Energies Türkiye fuel stations is the application. Customers included in the application can make fuel purchases you can earn points, benefit from various campaigns and you can spend the points you earn at gas stations.",
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu/details/projects",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "JetEMV - Card Personalization Application",
-    description:
-      "Debit Card, Prepaid Card and Credit used in payment systems It is the personalization application of cards. The application can make Magnetic and EMV (Chip) personalization, It can work integrated with banks.",
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu/details/projects",
-  },
-  {
-    iconUrl: pricewise,
-    theme: "btn-back-black",
-    name: "Passport Card - Loyalty Card Application",
-    description:
-      "TAV Operations, one of the subsidiaries of TAV Airports Holding Services Inc. TAV Passport Card, which is a brand, is available to passengers at the airport. It is a membership program that offers privileges. Included in the membership program. Customers can choose the category of membership at airports operated by TAV. You can benefit from different services depending on your needs.",
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu/details/projects",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "MyGini - Loyalty and Offers Management",
-    description:
-      "Create, personalize and communicate your offers in minutes and push them to your mobile app in real time.",
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu/details/projects",
-  },
+  }
 ];

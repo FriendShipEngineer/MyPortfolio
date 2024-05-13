@@ -5,11 +5,10 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Emre</span>
-        👋
+        Welcome! I'm 
+        <span className='font-semibold mx-2 text-white'>Egor</span>
         <br />
-        A Software Engineer from Türkiye 
+        A Software Engineer from Ireland
       </h1>
     );
 
@@ -21,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          More details
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>

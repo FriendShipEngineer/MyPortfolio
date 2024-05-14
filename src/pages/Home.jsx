@@ -38,7 +38,7 @@ const Home = () => {
       screenPosition = [0, -1.5, 0];
     } else {
       screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
+      screenPosition = [0, 500, 0];
     }
 
     return [screenScale, screenPosition];
@@ -86,7 +86,7 @@ const Home = () => {
           />
 
           <Bird />
-          <Sky isRotating={isRotating} />
+          <Sky isRotating={true} />
           <Island
             position={islandPosition}
             scale={islandScale}

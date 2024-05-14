@@ -13,6 +13,7 @@ import { a } from "@react-spring/three";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useEffect, useRef } from "react";
+import { useState } from "react";
 
 import islandScene from "../assets/3d/island.glb";
 
@@ -28,7 +29,6 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const rotationSpeed = useRef(0);
   // Define a damping factor to control rotation damping
   const dampingFactor = 0.95;
-
   // Handle pointer (mouse or touch) down event
   const handlePointerDown = (event) => {
     event.stopPropagation();

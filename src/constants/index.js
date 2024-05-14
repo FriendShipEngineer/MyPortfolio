@@ -1,4 +1,4 @@
-import { meta, b2wise, balizero, waylight, developx, f8} from "../assets/images";
+import { meta, b2wise, balizero, waylight, developx, f8, daneruyle, hufang} from "../assets/images";
 import {
   car,
   contact,
@@ -254,5 +254,24 @@ export const projects = [
     description:
       "Build and Deploy a Real Estate React & Next.js Application",
     link: "https://realtor-dev.vercel.app",
+  }
+];
+
+export const friends = [
+  {
+    iconUrl: daneruyle,
+    theme: "btn-back-green",
+    name: "Dane Ruyle",
+    description:
+      "My Boss",
+    link: "https://www.linkedin.com/in/dane-ruyle-a840871",
+  },
+  {
+    iconUrl: hufang,
+    theme: "btn-back-black",
+    name: "Hu Fang",
+    description:
+      "My Friend",
+    link: "https://cn.linkedin.com/in/yeddavidoo222",
   }
 ];

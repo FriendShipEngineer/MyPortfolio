@@ -7,6 +7,8 @@ import balizero from './balizero.png'
 import waylight from './waylight.png'
 import developx from './developx.png'
 import f8 from './f8.png'
+import daneruyle from './daneruyle.png'
+import hufang from './hufang.png'
 
 export {
     hero,
@@ -16,5 +18,7 @@ export {
     balizero,
     waylight,
     developx,
-    f8
+    f8,
+    daneruyle,
+    hufang
 }

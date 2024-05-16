@@ -6,6 +6,7 @@ import Island from "../models/Island";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
+
 import HomeInfo from "../components/HomeInfo";
 
 import { soundoff, soundon } from "../assets/icons";

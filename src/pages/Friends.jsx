@@ -35,7 +35,7 @@ const Friends = () => {
                   to={friend.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-blue-600 text-4xl"
+                  className="p-2 rounded font-semibold text-white text-4xl bg-blue-500"
                 >
                   in
                 </Link>
@@ -51,13 +51,6 @@ const Friends = () => {
       </div>
       <hr className="border-slate-200" />
       <CTA />
-      {/*
-            
-                
-            
-
-            
-            */}
     </section>
   );
 };
